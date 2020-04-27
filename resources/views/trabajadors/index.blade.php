@@ -17,7 +17,7 @@
         @foreach($trabajadors as $trabajador)
             <tr>
                 <td>{{ $trabajador->nombre_completo }}</td>
-                <td style="width: 250px"><button class="btn btn-primary"> = Documentos requeridos</button></td>
+                <td style="width: 250px"><a class="btn btn-primary" href="{{ route('trabajadors.show', [$trabajador->id]) }}"> = Documentos requeridos</a></td>
             </tr>
         @endforeach
         </tbody>

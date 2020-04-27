@@ -13,8 +13,8 @@ class TrabajadorController extends Controller
         return view('trabajadors.index', compact('trabajadors'));
     }
 
-    public function show($id)
+    public function show(Trabajador $trabajador)
     {
-        //
+        return view('trabajadors.show', compact('trabajador'));
     }
 }
