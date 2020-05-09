@@ -66,7 +66,7 @@
 <body>
 <div class="flex-center position-ref full-height">
     <div class="top-right links">
-        <a href="{{ route('trabajadors.index') }}">Libros</a>
+        <a href="{{ route('trabajadors.index') }}">Trabajadores</a>
     </div>
 
     <div class="content">
